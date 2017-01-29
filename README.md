@@ -1,5 +1,11 @@
 # DGActivityIndicatorView
-DGActivityIndicatorView is a great way to make loading spinners in your application look nicer. It contains 32 different indicator view styles. Inspired by: http://connoratherton.com/loaders
+
+This project is a fork from the original [DGActivityIndicatorView](https://github.com/gontovnik/DGActivityIndicatorView).
+The main purpose of it was to separate the library from the sample to allow compilating only the library.
+I've added a Makefile to compile the library into a fat .a file.
+
+DGActivityIndicatorView is a great way to make loading spinners in your application look nicer. 
+It contains 32 different indicator view styles. Inspired by: http://connoratherton.com/loaders
 
 ![alt tag](https://raw.githubusercontent.com/gontovnik/DGActivityIndicatorView/master/DGActivityIndicatorView.gif)
 
@@ -11,34 +17,7 @@ DGActivityIndicatorView is a great way to make loading spinners in your applicat
 
 ## Demo
 
-Open and run the DGActivityIndicatorExample project in Xcode to see DGActivityIndicatorView in action.
-
-## Installation
-
-### CocoaPods
-
-Install CocoaPods if it is not installed yet:
-
-``` bash
-$ [sudo] gem install cocoapods
-$ pod setup
-```
-
-Add DGActivityIndicatorView to Podfile:
-
-``` bash
-pod 'DGActivityIndicatorView'
-```
-
-Call 'pod install':
-
-``` bash
-pod install
-```
-
-### Manual install
-
-All you need to do is drop DGActivityIndicatorView folder into your project and include headers.
+Open and run the DGActivityIndicatorViewSample project in Xcode to see DGActivityIndicatorView in action.
 
 ## Example usage
 
@@ -49,39 +28,6 @@ activityIndicatorView.frame = CGRectMake(0.0f, 0.0f, 50.0f, 50.0f);
 [activityIndicatorView startAnimating];
 ```
 
-## TODO
+## Thanks to
 
-* Add more different animations
-
-## Contact
-
-Danil Gontovnik
-
-- https://github.com/gontovnik
-- https://twitter.com/gontovnik
-- http://gontovnik.com/
-- gontovnik.danil@gmail.com
-
-## License
-
-The MIT License (MIT)
-
-Copyright (c) 2015 Danil Gontovnik
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+[Danil Gontovnik] (https://github.com/gontovnik)

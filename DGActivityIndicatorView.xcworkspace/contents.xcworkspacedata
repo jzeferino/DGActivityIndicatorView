@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:DGActivityIndicatorViewSample/DGActivityIndicatorViewSample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DGActivityIndicatorView/DGActivityIndicatorView.xcodeproj">
+   </FileRef>
+</Workspace>
